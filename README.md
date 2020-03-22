@@ -8,11 +8,11 @@ Create SVG Trees in real-time by editing JSON objects with the Ace browser based
 
 # Screenshots
 
-![](./img/screenshot.png)
-![](./img/screenshot4.png)
-![](./img/screenshot2.png)
-![](./img/screenshot3.png)
-![](./img/screenshot5.png)
+![](./img/screenshot_.png)
+![](./img/screenshot4_.png)
+![](./img/screenshot2_.png)
+![](./img/screenshot3_.png)
+![](./img/screenshot5_.png)
 
 # Overview
 
