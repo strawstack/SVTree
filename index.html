@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Font Awesome: <script src="https://kit.fontawesome.com/0033d354dd.js" crossorigin="anonymous"></script> -->
+
+    <!-- D3 -->
+    <script src="https://d3js.org/d3.v5.js"></script>
+
+    <!-- Seed Random -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+
+    <!-- Ace Editor -->
+    <script src="ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- Class files -->
+    <script src="class/H.js"></script>
+    <script src="class/Scrubber.js"></script>
+    <script src="class/TreeMaker.js"></script>
+
+    <!-- Main -->
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="page-area">
+
+    <div class="content-left">
+        <div class="menu-area"></div>
+        <div class="editor-area">
+            <div class="scrubber-area">
+                <div class="scrubber-pointer"></div>
+            </div>
+<div id="editor">{
+    "branch": {
+        "seed": 38,
+        "root": {"x": 623, "y": 900},
+        "rootAngle": 75,
+        "rootRadius": 25,
+        "rootLength": 150,
+        "joints": 6,
+        "splits": 2,
+        "jointShrink": 0.25,
+        "widthShrink": 0.3,
+        "lengthShrink": 0.3,
+        "minRadius": 2,
+        "maxLevel": 3,
+        "color": "#333"
+    },
+    "leaf": {
+        "seed": 234,
+        "color": ["green", "#FF0000", "yellow"],
+        "opacity": 0.55,
+        "radius": 15,
+        "number": 120,
+        "spread": 65,
+        "branchMask": 3
+    },
+    "background": "white"
+}</div>
+        </div>
+    </div>
+
+    <div class="content-right">
+        <svg
+            version="1.1"
+            viewBox="0 0 1024 1024"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+        ></svg>
+    </div>
+</div>
+</body>
+</html>
