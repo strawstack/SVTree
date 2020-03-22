@@ -1,10 +1,12 @@
 # SVTree
 
-A tool for creating SVG Trees in real-time by editing JSON objects in an in-browser editor enhanced with scrubber controls for integers.
+Create SVG Trees in real-time by editing JSON objects with the Ace browser based text-editor enhanced with scrubber controls for integers and float values.
 
-# Note
+# Screenshots
 
-A `Tree` is {branch:, children:} where `branch` is an array of `segments`. `Children` is an array of `Trees`
+![](./img/screenshot.png)
+![](./img/screenshot2.png)
+![](./img/screenshot3.png)
 
 # TODO
 
@@ -117,10 +119,3 @@ The user edits a `JSON object` using scrubber controls in the ACE text editor. T
     "background": "white"
 }
 ```
-
-# Colors
-
-- Brown bark multi-shade green leaves
-- white bark and pink leaves
-- Red leaves and charcoal bark
-- pallet from colours.io
