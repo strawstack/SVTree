@@ -4,7 +4,7 @@ Create SVG Trees in real-time by editing JSON objects with the Ace browser based
 
 # Live Demo
 
-[See Live Demo](https://regularmemory.blog/SVTree/)
+[See Live Demo](https://strawstack.github.io/SVTree/)
 
 # Screenshots
 
